@@ -30,7 +30,10 @@ export default {
         url: '/search-members',
         method: 'get'
       }).then(response => {
-        this.siteUserList = response.data
+        console.log(response)
+        console.log(response.data)
+        console.log(response.data.data.item)
+        this.siteUserList = response.data.data.item
       }).catch(error => {
         console.error('THE ERROR IS: ', error)
       })
@@ -38,7 +41,3 @@ export default {
   }
 }
 </script>
-
-<style>
-
-</style>

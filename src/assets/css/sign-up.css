@@ -1,0 +1,11 @@
+.sign-up {
+    width: 100%;
+    height: 900px;
+    background-image: url('/src/assets/stars.webp');
+    background-repeat: no-repeat;
+    background-color: grey;
+}
+
+ul {
+    list-style-type: none;
+}
